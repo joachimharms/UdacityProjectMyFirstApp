@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.udacity.myapplication.MainActivity">
+
+    <ImageView
+        android:src="@drawable/big_burger"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Burger Palast"
+        android:textSize="48sp"
+        android:paddingTop="22dp"
+        android:textAlignment="center"
+        android:textColor="#E65100"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"
+        />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="12dp"
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Adresse"
+            android:textSize="16sp"
+            android:layout_marginLeft="52dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Futterstr 12  26125 Oldenburg"
+            android:textSize="16sp"
+            android:layout_marginLeft="52dp"
+            android:paddingTop="4dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone"
+            android:textSize="16sp"
+            android:layout_marginLeft="52dp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0441 - 303312"
+            android:textSize="16sp"
+            android:layout_marginLeft="52dp"
+            android:paddingTop="4dp"
+
+            />
+    </LinearLayout>
+</RelativeLayout>
